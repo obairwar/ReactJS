@@ -52,29 +52,35 @@
     }
 
     function App(){
+
+      const chatMessages=[{
+          message:"Hello Chatbot",
+          sender:"user",
+      },{
+            message :"Hello! How can I help You ?" ,
+            sender:"robot",
+      },{
+            message:"can you get me todays date" ,
+            sender:"user" ,
+      },{
+            message:"Today is September 7",
+            sender:"robot", 
+      }];
+
+      const chatMessageComponents=chatMessages.map((chatMessage)=>{
+        return(
+          <ChatMessage   //returning chatmessage cpmponent , having 2 props message and the sender
+           message={chatMessage.message}
+           sender={chatMessage.sender}
+          />
+        )
+      })
       return (
           <>
           <ChatInput />
-          
-          <ChatMessage 
-            message="Hello Chatbot"
-            sender="user"
-          />
-          <ChatMessage
-            message ="Hello! How can I help You" 
-            sender="robot" 
-          />
-          <ChatMessage 
-            message="can you get me todays data" 
-            sender="user" 
-          />
-          <ChatMessage 
-            message="Today is September 7"
-            sender="robot" 
-          />
+          {chatMessageComponents}
+
         </>
-
-
       );
     }
     
