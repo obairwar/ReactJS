@@ -67,18 +67,18 @@
             sender:"robot", 
       }];
 
-      const chatMessageComponents=chatMessages.map((chatMessage)=>{
-        return(
-          <ChatMessage   //returning chatmessage cpmponent , having 2 props message and the sender
-           message={chatMessage.message}
-           sender={chatMessage.sender}
-          />
-        )
-      })
       return (
           <>
           <ChatInput />
-          {chatMessageComponents}
+          {chatMessages.map((chatMessage)=>{
+            return(
+            <ChatMessage 
+            message={chatMessage.message}
+            sender={chatMessage.sender}
+            />
+          )
+        })
+      }
 
         </>
       );
