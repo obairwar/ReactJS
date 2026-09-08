@@ -8,4 +8,5 @@ guard operator(&&)
 const result=value1 && value2
 - if value1 is true . the result will be value2
 - this works just like an if-statement
-key
+-key
+- event handler
