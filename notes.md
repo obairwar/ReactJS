@@ -17,3 +17,10 @@ const result=value1 && value2
 arr[0]=> ist value => the current value od chatMessages(the current data)
 arr[1]=>dunction that updates the data;=> this fuction lets us update the data  , in react we should not update the data directly , id we update the data directly react will not update the HTML  => also known as the Updater Function
 -setChatMessages(new value of chat messages) => gonna replace wntire chat message array with the new array
+
+- onChange = runs a function when we change the text inside an inpute
+- event.target= gives us the element that we;re typing in
+- lifting the state up 
+- lifting state of chatMessages(chatMessage and setChatMessagess) as we have to use them in chatInput
+
+- controlled inputs
