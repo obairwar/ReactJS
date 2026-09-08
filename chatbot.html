@@ -26,18 +26,6 @@
     }
 
     function ChatMessage({message,sender}){
-      //const {message,sender}=props;
-      /*if(sender=="robot"){
-        return (
-          <div>
-              {message}
-              <img src="robot.png" width="50" />
-
-          </div>
-
-        )
-      }
-      */
 
       return (
         <div>
@@ -53,7 +41,7 @@
 
 
     function ChatMessages(){
-        const chatMessages=[{
+     const array= React.useState([{ 
             message:"Hello Chatbot",
             sender:"user",
             id:'id1',
@@ -69,15 +57,21 @@
               message:"Today is September 7",
               sender:"robot", 
               id:'id4',
-         }];
+         }]
+         );
 
-         function  sendMessage(){
-          chatMessages.push({
-            message:"test",
-            sender:"user",
-            if:crypto.randomUUID()
-          })
-          console.log(chatMessages);
+         const chatMessages=array[0];
+         const setChatMessages=array[1];
+
+         function sendMessage(){
+          setChatMessages([
+            ...chatMessages,
+            {
+              message:"test",
+              sender:"user",
+              id:crypto.randomUUID()
+            }
+          ])
          }
 
 
