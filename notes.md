@@ -24,3 +24,11 @@ arr[1]=>dunction that updates the data;=> this fuction lets us update the data  
 - lifting state of chatMessages(chatMessage and setChatMessagess) as we have to use them in chatInput
 
 - controlled inputs
+
+
+-----------------------------------------------
+- Css
+- padding= space inside the button 
+- margin = space outside an element
+- border-radius -- to make round radius
+- cursor:pointer --- pointer icon
