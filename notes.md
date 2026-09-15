@@ -28,7 +28,20 @@ arr[1]=>dunction that updates the data;=> this fuction lets us update the data  
 
 -----------------------------------------------
 - Css
+-button-
 - padding= space inside the button 
 - margin = space outside an element
 - border-radius -- to make round radius
 - cursor:pointer --- pointer icon
+
+- chat-box-
+- padding = space inside an element
+- border-width ==> to change the thickness 
+- flexbox-- create a flexible layout
+- layout - how the elements are positioned
+ - to use flexbox:
+ 1. create container around elements
+ 2. add display:flex; to container
+ 3. use flexbox features
+
+- max- width
