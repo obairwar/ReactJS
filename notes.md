@@ -50,3 +50,9 @@ arr[1]=>dunction that updates the data;=> this fuction lets us update the data  
 - one way is to use margin
 -        margin-left:auto;
          margin-right:auto;
+
+- layout for chatMessages
+create className 
+use flexBox
+justify-content = controls how the elements are displayed horizontally
+justify-content:end; // display content on the right
