@@ -82,3 +82,6 @@ vh=viewport height (the height of the browser)
 display: flex; , by default places element horizontally
 flex-direction= which direction the elements are positioned
 flex-direction: column; // vertically in the olumn 
+ -
+ add spaces at the top and bottom 
+ 
