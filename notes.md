@@ -88,3 +88,25 @@ flex-direction: column; // vertically in the olumn
 
  make chat messages scrollable==>overflow: scroll;
  hide scrollbar => scrollbar-width : none;
+
+ auto scrolling ==>Hooks= insert React feeatures into our component 
+ React.useState() is a hook
+ const[inputText,setInputText] = React.useState(');
+ State = automatically updates the HTML when the data changes
+ react hooks=>useState(), useEffect(), useRef() and more
+ every hook starts with the word use
+ useEffect = runn some code after the component is created or updated
+ - put hools at the top of the compoent 
+hookks shoild not be inside anything , example function and the if statement
+
+function ChatMessages({chatMessages})
+      React.useEffect(()=>{
+        console.log("string updated")
+      },[]);
+      []=> controls when useEffect runs  // dependacy array
+      (empty array)[]= only run once,after the component is created 
+      [chatMessages]= run this function every time chatMessages changes
+
+useRef-= automatically save the HTML element from the component
+ref- react element with special featurs
+containerElem.scrollTop=containerElem.scrollHeight;
