@@ -86,4 +86,4 @@ flex-direction: column; // vertically in the olumn
  add spaces at the top and bottom 
 
 
- make chat messages scrollable
+ make chat messages scrollable==>overflow: scroll;
