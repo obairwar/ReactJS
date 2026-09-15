@@ -45,3 +45,8 @@ arr[1]=>dunction that updates the data;=> this fuction lets us update the data  
  3. use flexbox features
 
 - max- width
+
+- centralise the app on the website
+- one way is to use margin
+-        margin-left:auto;
+         margin-right:auto;
