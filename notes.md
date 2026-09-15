@@ -70,3 +70,15 @@ by default , align-items:stretch
 - ---------------------------------
         -----styling profile images---
         
+        
+- move text box to the bottom
+.app-container{
+        height:100vh // input box at the bottom of the browser
+}
+vh=viewport height (the height of the browser)
+
+- removing default margn from the body
+
+display: flex; , by default places element horizontally
+flex-direction= which direction the elements are positioned
+flex-direction: column; // vertically in the olumn 
