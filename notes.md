@@ -87,3 +87,4 @@ flex-direction: column; // vertically in the olumn
 
 
  make chat messages scrollable==>overflow: scroll;
+ hide scrollbar => scrollbar-width : none;
