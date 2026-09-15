@@ -66,3 +66,5 @@ when a block element (like <div>) is inside a flexbox
 align-items=> prevents stretching of elements
 ==> it controls how the elements are displayed vertically , 
 by default , align-items:stretch
+
+- ---------------------------------
