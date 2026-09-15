@@ -56,3 +56,13 @@ create className
 use flexBox
 justify-content = controls how the elements are displayed horizontally
 justify-content:end; // display content on the right
+
+- style text in the chatMessages
+
+when a block element (like <div>) is inside a flexbox
+- ot no lonher takes up the entire line
+- it only takes up as much space as it needs to
+
+align-items=> prevents stretching of elements
+==> it controls how the elements are displayed vertically , 
+by default , align-items:stretch
