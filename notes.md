@@ -68,3 +68,5 @@ align-items=> prevents stretching of elements
 by default , align-items:stretch
 
 - ---------------------------------
+        -----styling profile images---
+        
